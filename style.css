@@ -35,8 +35,18 @@ body, html {
   video::-webkit-media-controls {
     display:none !important;
   }
-  <button id="video-detach-button" disabled> Лишнее </button>
-    <button id="lucid-mode-button" disabled> лишнее 1</button>
+  button {
+   visibility: hidden;
+  }
+  
+  button:hover {
+visibility: hidden;
+  }
+  
+  button:disabled,
+  button[disabled]{
+    visibility: hidden;
+  }
   video{
     position: absolute;
     height:400px ;
