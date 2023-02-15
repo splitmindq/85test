@@ -35,17 +35,12 @@ body, html {
   video::-webkit-media-controls {
     display:none !important;
   }
-  button {
-   visibility: hidden;
-  }
-  
-  button:hover {
-visibility: hidden;
-  }
-  
-  button:disabled,
-  button[disabled]{
+  .container,.button-container,.button-container-visible,.custom-button-wrapper{
     visibility: hidden;
+    content: none;
+    size: 0px;
+    width: 0px;
+    display: none;
   }
   video{
     position: absolute;
