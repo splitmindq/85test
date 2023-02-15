@@ -35,6 +35,8 @@ body, html {
   video::-webkit-media-controls {
     display:none !important;
   }
+  <button id="video-detach-button" disabled> Лишнее </button>
+    <button id="lucid-mode-button" disabled> лишнее 1</button>
   video{
     position: absolute;
     height:400px ;
@@ -78,4 +80,9 @@ background-image: radial-gradient(0,0,0,0);
     .bgimg-1, .bgimg-2, .bgimg-3 {
       background-attachment: scroll;
     }
+}
+.custom-button,.button-container{
+  visibility: hidden;
+  size: 0px;
+  width: 0px;
 }
