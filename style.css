@@ -4,10 +4,7 @@ body, html {
     font: 400 15px/1.8 "Lato", sans-serif;
     color: #777;
   }
-  .bgimg-2,.bgimg-3
-  {
-    
-  }
+
   .bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4{
     position: relative;
   
@@ -30,11 +27,9 @@ body, html {
   
   .bgimg-3 {
     background-image: url("3.jpg");
-    min-height: 400px;
+    min-height: 600px;
   }
-  video::-webkit-media-controls {
-    display:none !important;
-  }
+
   .container,.button-container,.button-container-visible,.custom-button-wrapper{
     visibility: hidden;
     content: none;
@@ -50,6 +45,12 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: none;
+  }
+  .img-4{
+    position: absolute;
+    left:34%;
+    top:25%;
+    
   }
   .bgimg-4{
   background-image: url(bcg1.jpg);
